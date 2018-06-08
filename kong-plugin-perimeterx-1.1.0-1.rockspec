@@ -2,18 +2,18 @@
 
 package = "kong-plugin-perimeterx"
 
-version = "1.0.0-1"
+version = "1.1.0-1"
 
 supported_platforms = {"linux", "macosx"}
 -- LuaDist source
 source = {
-  tag = "1.0.0-1",
+  tag = "1.1.0-1",
   url = "git://github.com/LuaDist-testing/kong-plugin-perimeterx.git"
 }
 -- Original source
 -- source = {
 --     url = "git://github.com/PerimeterX/perimeterx-kong-plugin.git",
---     tag = "v1.0.0"
+--     tag = "v1.1.0"
 -- }
 
 description = {
@@ -23,7 +23,7 @@ description = {
 }
 
 dependencies = {
-    "perimeterx-nginx-plugin == 2.12"
+    "perimeterx-nginx-plugin == 2.13"
 }
 
 local pluginName = "perimeterx"
